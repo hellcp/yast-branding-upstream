@@ -51,36 +51,35 @@ YQRichText > YQTextBrowser,
 }
 
 .current-step-name,
-.current-step-status,
-.todo-step-name,
-.todo-step-status,
 .done-step-name,
-.done-step-status {
-  min-height: 29px;
-  padding-top: 2px;
-  padding-left:5px;
+.todo-step-name {
+  padding: 4px 8px 4px 0;
+  margin: 1px 0;
 }
 .current-step-name {
-  font-weight: bold;
-  background-color: #3584e4;
-  color: #ffffff;
+  background-color: #e8e8e7;
 }
 .steps_heading {
   color: #929595;
   font-weight:bold;
   font-size: 9.5pt;
-  padding-top: 2px;
+  padding: 4px 8px;
 }
 .todo-step-status, .done-step-status, .current-step-status {
    max-width: 16px;
    min-width: 16px;
+  padding: 0  6px 0 14px;
+  margin: 1px 0;
 }
 .done-step-status {
    image: url(images/step-done.svg);
 }
 .current-step-status {
    image: url(images/step-current.svg);
-   background-color: #3584e4;
+   background-color: #e8e8e7;
+}
+.todo-step-status {
+   image: url(images/step-todo.svg);
 }
 
 QHeaderView {
